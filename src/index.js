@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { robots } from "./robots";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <App />
-    <App />
-    <App />
+    <App id={robots[0].id} name={robots[0].name} email={robots[0].email} />
+    <App id={robots[1].id} name={robots[1].name} email={robots[1].email} />
+    <App id={robots[2].id} name={robots[2].name} email={robots[2].email} />
+    <App id={robots[3].id} name={robots[3].name} email={robots[3].email} />
   </React.StrictMode>
 );
 
