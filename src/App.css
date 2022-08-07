@@ -9,3 +9,9 @@
     border: 1px;
     border-radius: 10px;
 }
+.grow {
+    transition: all .2s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.1);
+}
