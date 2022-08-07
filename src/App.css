@@ -1,0 +1,11 @@
+.App {
+    display: inline-block;
+}
+.App .Card {
+    text-align: center;
+    background-color: aquamarine;
+    margin: 10px;
+    padding:10px;
+    border: 1px;
+    border-radius: 10px;
+}

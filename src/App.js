@@ -1,12 +1,14 @@
-import React from  "react";
+import "./App.css";
 
-const App = () => {
+function App() {
   return (
     <div className="App">
-      <img alt="robots" src="https://robohash.org/test?set=set4" class=".img-fluid" />
-      <div>
+      <div className="Card">
+      <img alt="robots" src="https://robohash.org/test?size=200x200" class=".img-fluid"  />
+      <div className="text-center">
         <h2>Jane Doe</h2>
         <p>jane.doe@gmail.com</p>
+      </div>
       </div>
     </div>
   );
