@@ -1,12 +1,12 @@
 import React from "react";
-import "./App.css";
+import "./Card.css";
 
-function App(props) {
+function Card(props) {
   const { name,email,id } = props;
   return (
-    <div className="App">
+    <div className="card">
       <div className="grow">
-      <div className="Card">
+      <div className="cardInfo">
       <img alt="robots" src={`https://robohash.org/${id}?size=200x200`} class=".img-fluid" />
       <div className="text-center">
         <h2>{name}</h2>
@@ -18,4 +18,4 @@ function App(props) {
   );
 }
 
-export default App;
+export default Card;

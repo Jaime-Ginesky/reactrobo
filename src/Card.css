@@ -1,7 +1,7 @@
-.App {
+.card {
     display: inline-block;
 }
-.App .Card {
+.card .cardInfo {
     text-align: center;
     background-color: aquamarine;
     margin: 10px;
