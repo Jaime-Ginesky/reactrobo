@@ -5,7 +5,7 @@ import { robots } from "./robots";
 import "./App.css"
 
 
-class App extends Component() {
+class App extends Component {
     constructor() {
         super()
         this.state = {
