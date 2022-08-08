@@ -2,6 +2,7 @@ import React from "react";
 import CardList from "./CardList";
 import SearchBox from "./SearchBox";
 import { robots } from "./robots";
+import "./App.css"
 
 
 const App = () => {
@@ -11,7 +12,7 @@ const App = () => {
         <SearchBox />
         <CardList robots={robots} />
         </div>
-    )
+    );
 }
 
 export default App;
