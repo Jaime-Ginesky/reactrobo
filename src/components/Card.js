@@ -1,5 +1,5 @@
 import React from "react";
-import "./Card.css";
+import "../components/Card.css";
 
 const Card = (props) => {
   const { name,email,id } = props;
